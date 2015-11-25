@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>8f689026-55f7-4043-abcc-3716e6ea88e6</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\values">
+      <UniqueIdentifier>a9ccb15d-d468-46a0-92dc-e73d4abd2dd0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{85c57e95-167d-4034-8b64-9bfda54f60ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fi">
+      <UniqueIdentifier>{9c1048f8-e384-44dc-94e5-fea513e8614c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fi\umbrellademo">
+      <UniqueIdentifier>{238a720f-25ab-4861-9a1f-4a113c088b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jni">
+      <UniqueIdentifier>{2c0bbfe5-749b-4124-89a7-0d6462c6f508}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidBuild Include="AndroidManifest.xml" />
+    <AndroidBuild Include="res\values\strings.xml">
+      <Filter>res\values</Filter>
+    </AndroidBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <JCompile Include="src\fi\umbrellademo\Umbrella_Demo.java">
+      <Filter>src\fi\umbrellademo</Filter>
+    </JCompile>
+    <JCompile Include="src\fi\umbrellademo\UmbrellaDemoLib.java">
+      <Filter>src\fi\umbrellademo</Filter>
+    </JCompile>
+    <JCompile Include="src\fi\umbrellademo\UmbrellaDemoView.java">
+      <Filter>src\fi\umbrellademo</Filter>
+    </JCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\Umbrella_Demo.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\gl_code.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

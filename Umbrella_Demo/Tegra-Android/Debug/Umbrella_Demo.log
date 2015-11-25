@@ -1,0 +1,170 @@
+﻿Build started 25.11.2015 13:56:18.
+     1>Project "C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Users\Public\NDK\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe 
+         gl_code.cpp
+         jni/gl_code.cpp: In function 'void renderFrame()':
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(195,16): warning : narrowing conversion of '(cos(((double)angle2)) * 5.0000000000000003e-2)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2)*0.05, sin(angle2)*0.05,
+                         ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(195,34): warning : narrowing conversion of '(sin(((double)angle2)) * 5.0000000000000003e-2)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2)*0.05, sin(angle2)*0.05,
+                                           ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(196,28): warning : narrowing conversion of '(cos((((double)(angle2 + a)) - 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 + a - 0.025)*0.9, sin(angle2 + a - 0.025)*0.9,
+                                     ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(196,57): warning : narrowing conversion of '(sin((((double)(angle2 + a)) - 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 + a - 0.025)*0.9, sin(angle2 + a - 0.025)*0.9,
+                                                                  ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(197,28): warning : narrowing conversion of '(cos((((double)(angle2 - a)) + 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 - a + 0.025)*0.9, sin(angle2 - a + 0.025)*0.9,
+                                     ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(197,57): warning : narrowing conversion of '(sin((((double)(angle2 - a)) + 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 - a + 0.025)*0.9, sin(angle2 - a + 0.025)*0.9,
+                                                                  ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(226,16): warning : narrowing conversion of '(cos(((double)angle2)) * 5.0000000000000003e-2)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2)*0.05, sin(angle2)* 0.05,
+                         ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(226,34): warning : narrowing conversion of '(sin(((double)angle2)) * 5.0000000000000003e-2)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2)*0.05, sin(angle2)* 0.05,
+                                           ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(227,28): warning : narrowing conversion of '(cos((((double)(angle2 + a)) - 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 + a - 0.025)*0.9, sin(angle2 + a - 0.025)*0.9,
+                                     ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(227,57): warning : narrowing conversion of '(sin((((double)(angle2 + a)) - 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 + a - 0.025)*0.9, sin(angle2 + a - 0.025)*0.9,
+                                                                  ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(228,28): warning : narrowing conversion of '(cos((((double)(angle2 - a)) + 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 - a + 0.025)*0.9, sin(angle2 - a + 0.025)*0.9,
+                                     ^
+     1>C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\jni\gl_code.cpp(228,57): warning : narrowing conversion of '(sin((((double)(angle2 - a)) + 2.5000000000000001e-2)) * 9.0000000000000002e-1)' from 'double' to 'const float' inside { } [-Wnarrowing]
+              cos(angle2 - a + 0.025)*0.9, sin(angle2 - a + 0.025)*0.9,
+                                                                  ^
+       Link:
+         C:\Users\Public\NDK\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe Tegra-Android/Debug/gl_code.o Tegra-Android/Debug/Umbrella_Demo.o  -Wl,-soname,libUmbrella_Demo.so -shared --sysroot=C:/Users/Public/NDK/platforms/android-9/arch-arm -Wl,-rpath-link=C:/Users/Public/NDK/platforms/android-9/arch-arm/usr/lib "-lGLESv2" -fuse-ld=bfd -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -L"C:/Users/Public/NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9/armv7-a" -L"C:/Users/Public/NDK/platforms/android-9/arch-arm/usr/lib" -L"C:/Users/Public/NDK/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a" -L"C:/Users/Public/NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9/armv7-a" "C:/Users/Public/NDK/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -lc -lm -llog -lgcc -oC:/Users/nikokin/Documents/VisualStudio2013/Android/Umbrella_Demo/Umbrella_Demo/Tegra-Android/Debug/libUmbrella_Demo.so 
+         Umbrella_Demo.vcxproj -> C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libUmbrella_Demo.so
+       StripLibrary:
+         C:\Users\Public\NDK\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-strip.exe --strip-unneeded -o"C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\stripped_libUmbrella_Demo.so" "C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libUmbrella_Demo.so"
+         Stripping C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libUmbrella_Demo.so to C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\stripped_libUmbrella_Demo.so
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(212,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\ant.command.1.tlog" being invalid.
+         C:\NVPACK\apache-ant-1.8.2\bin\ant.bat debug -f C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_build.xml -listener org.apache.tools.ant.XmlLogger  
+         Building using the JDK located here: 'C:\Program Files\Java\jdk1.8.0_40 (Native64Bit)'...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(212,5): warning : When using a 64-bit Java runtime incremental builds may not function correctly.
+         Executing "C:\NVPACK\apache-ant-1.8.2\bin\ant.bat debug -f C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_build.xml -listener org.apache.tools.ant.XmlLogger "
+         Buildfile: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_build.xml
+         
+         -set-mode-check:
+         
+         -set-debug-files:
+         
+         -check-env:
+          [checkenv] Android SDK Tools Revision 24.4.0
+          [checkenv] Installed at C:\Program Files (x86)\Android\android-sdk
+         
+         -setup:
+              [echo] Project Name: Umbrella_Demo
+           [gettype] Project Type: Application
+         
+         -set-debug-mode:
+         
+         -debug-obfuscation-check:
+         
+         -pre-build:
+         
+         -build-setup:
+         [getbuildtools] Using latest Build Tools: 23.0.1
+              [echo] Resolving Build Target for Umbrella_Demo...
+         [gettarget] Project Target:   Android 4.0.3
+         [gettarget] API level:        15
+              [echo] ----------
+              [echo] Creating output directories if needed...
+              [echo] ----------
+              [echo] Resolving Dependencies for Umbrella_Demo...
+         [dependency] Library dependencies:
+         [dependency] No Libraries
+         [dependency] 
+         [dependency] ------------------
+         [dependency] API<=15: Adding annotations.jar to the classpath.
+         [dependency] WARNING: unable to write jarlist cache file C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\jarlist.cache
+              [echo] ----------
+              [echo] Building Libraries with 'debug'...
+            [subant] No sub-builds to iterate on
+         
+         -code-gen:
+         [mergemanifest] Found Deleted Target File
+         [mergemanifest] Merging AndroidManifest files into one.
+         [mergemanifest] Manifest merger disabled. Using project manifest only.
+              [echo] Handling aidl files...
+              [aidl] No AIDL files to compile.
+              [echo] ----------
+              [echo] Handling RenderScript files...
+              [echo] ----------
+              [echo] Handling Resources...
+              [aapt] Found Deleted Target File
+              [aapt] Generating resource IDs...
+              [echo] ----------
+              [echo] Handling BuildConfig class...
+         [buildconfig] No need to generate new BuildConfig.
+         
+         -pre-compile:
+         
+         -compile:
+             [javac] Compiling 2 source files to C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\classes
+             [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+             [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+             [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+             [javac] 3 warnings
+         
+         -post-compile:
+         
+         -obfuscate:
+         
+         -dex:
+               [dex] input: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\classes
+               [dex] input: C:\Program Files (x86)\Android\android-sdk\tools\support\annotations.jar
+               [dex] Using Pre-Dexed annotations-62bab95d6948a2db17bbc7976160b014.jar <- C:\Program Files (x86)\Android\android-sdk\tools\support\annotations.jar
+               [dex] Found Deleted Target File
+               [dex] Converting compiled files and external libraries into C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\classes.dex...
+                [dx] Picked up _JAVA_OPTIONS:  -Xms256m -Xmx1024m
+                [dx] Merged dex A (11 defs/9.5KiB) with dex B (2 defs/1.1KiB). Result is 13 defs/11.6KiB. Took 0.0s
+         
+         -crunch:
+            [crunch] Crunching PNG Files in source dir: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\res
+            [crunch] To destination dir: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\res
+            [crunch] Crunched 0 PNG files to update cache
+         
+         -package-resources:
+              [aapt] Found Deleted Target File
+              [aapt] Creating full resource package...
+              [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+         
+         -package:
+         [apkbuilder] Found Deleted Target File
+         [apkbuilder] Creating Umbrella_Demo-debug-unaligned.apk and signing it with a debug key...
+         
+         -post-package:
+         
+         -do-debug:
+          [zipalign] Running zip align on final apk...
+              [echo] Debug Package: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\Umbrella_Demo-debug.apk
+         [propertyfile] Updating property file: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\build.prop
+         [propertyfile] Updating property file: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\build.prop
+         [propertyfile] Updating property file: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\build.prop
+         [propertyfile] Updating property file: C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin\build.prop
+         
+         -post-build:
+         
+         debug:
+         
+         BUILD SUCCESSFUL
+         Total time: 4 seconds
+         Picked up _JAVA_OPTIONS:  -Xms256m -Xmx1024m
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(212,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\ant.command.1.tlog" being invalid.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(212,5): warning : [options] source value 1.5 is obsolete and will be removed in a future release
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(212,5): warning : [options] target value 1.5 is obsolete and will be removed in a future release
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(212,5): warning : [options] To suppress warnings about obsolete options, use -Xlint:-options.
+     1>Done Building Project "C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.90
