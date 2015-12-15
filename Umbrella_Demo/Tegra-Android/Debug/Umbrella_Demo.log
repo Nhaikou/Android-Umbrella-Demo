@@ -1,4 +1,4 @@
-﻿Build started 15.12.2015 13:30:41.
+﻿Build started 15.12.2015 14:52:52.
      1>Project "C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo.vcxproj" on node 2 (Build target(s)).
      1>StripLibrary:
          C:\Users\Public\NDK\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-strip.exe --strip-unneeded -o"C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Tegra-Android\Debug\stripped_libUmbrella_Demo.so" "C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Tegra-Android\Debug\libUmbrella_Demo.so"
@@ -124,4 +124,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.03
+Time Elapsed 00:00:05.53
