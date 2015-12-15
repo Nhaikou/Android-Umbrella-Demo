@@ -21,12 +21,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.WindowManager;
 
+import android.view.MotionEvent;
+import android.widget.Toast;
+
 import java.io.File;
 
 
 public class Umbrella_Demo extends Activity {
 
     UmbrellaDemoView mView;
+
+	private boolean isTouch = false;
 
     @Override protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -43,4 +48,27 @@ public class Umbrella_Demo extends Activity {
         super.onResume();
         mView.onResume();
     }
+	@Override
+public boolean onTouchEvent(MotionEvent event)
+{
+
+    int X = (int) event.getX();
+    int Y = (int) event.getY();
+
+    int eventaction = event.getAction();
+
+    switch (eventaction) {
+
+    case MotionEvent.ACTION_DOWN:
+
+        Toast.makeText(this, "DON'T TOUCH THIS",             Toast.LENGTH_SHORT).show();		// TOUCH EVENT!!!
+
+        isTouch = true;
+        break;
+
+    }
+
+    return true;
+
+}
 }

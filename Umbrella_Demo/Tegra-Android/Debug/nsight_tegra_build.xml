@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<project name="Umbrella_Demo" basedir="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\">
+<project name="Umbrella_Demo" basedir="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\">
   <!--Users should specify these files if they need to override the Nsight Tegra generated properties in this document generated from Visual Studio properties.-->
-  <import file="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\nsight_tegra_build_overrides_debug.xml" optional="true" />
-  <import file="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\nsight_tegra_build_overrides.xml" optional="true" />
+  <import file="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\nsight_tegra_build_overrides_debug.xml" optional="true" />
+  <import file="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\nsight_tegra_build_overrides.xml" optional="true" />
   <!--REGION-BEGIN: The following properties prevents Nsight Tegra from needing to modify user property files.  Setting them here will ensure they always match Visual Studio and allows users to build without needing to check out version controlled files.-->
   <property name="sdk.dir" value="C:\Program Files (x86)\Android\android-sdk" />
-  <property name="source.dir" value="C:\\Users\\nikokin\\Documents\\VisualStudio2013\\Android\\Umbrella_Demo\\Umbrella_Demo\\Umbrella_Demo\\src" />
+  <property name="source.dir" value="C:\\Users\\nikokin\\Documents\\GitHub\\Umbrella_Demo\\Umbrella_Demo\\src" />
   <property name="target" value="android-15" />
   <!--REGION-END-->
   <!--REGION-BEGIN: The following properties prevents Nsight Tegra from needing to modify user manifest files.  Setting them here will ensure they always match Visual Studio and allows users to build without needing to check out version controlled files.-->
-  <property name="manifest.file" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_manifest.xml" />
-  <property name="manifest.abs.file" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_manifest.xml" />
+  <property name="manifest.file" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_manifest.xml" />
+  <property name="manifest.abs.file" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\nsight_tegra_manifest.xml" />
   <!--REGION-END-->
   <!--REGION-BEGIN: The following properties allow Nsight Tegra to maintain build results per-configuration (debug, release, etc).-->
-  <property name="gen.absolute.dir" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\gen" />
-  <property name="out.dir" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin" />
-  <property name="jar.libs.dir" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libs" />
-  <property name="native.libs.absolute.dir" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libs" />
+  <property name="gen.absolute.dir" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\gen" />
+  <property name="out.dir" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\bin" />
+  <property name="jar.libs.dir" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libs" />
+  <property name="native.libs.absolute.dir" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libs" />
   <target name="-pre-compile">
     <property name="nsight.tegra.project.all.jars.path" value="${toString:project.all.jars.path}" />
     <path id="project.all.jars.path">
@@ -26,7 +26,7 @@
       </fileset>
     </path>
   </target>
-  <property name="XmlLogger.file" value="C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\ant_log.xml" />
+  <property name="XmlLogger.file" value="C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\ant_log.xml" />
   <!--REGION-END-->
   <import file="${sdk.dir}/tools/ant/build.xml" />
 </project>

@@ -7,12 +7,12 @@ ToolRootPath=C:\NVPACK\apache-ant-1.8.2
 JdkRootPath=C:\Program Files\Java\jdk1.8.0_40
 ToolchainPlugin=android
 ToolchainRootPath=C:\Users\Public\NDK
-OutputDir=C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\
-ProjectRoot=C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\
+OutputDir=C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\
+ProjectRoot=C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\
 ProjectName=Umbrella_Demo
 BuildTarget=Debug
-JavaSourceDir=C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\src
-AndroidManifestLocation=C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\AndroidManifest.xml
+JavaSourceDir=C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\src
+AndroidManifestLocation=C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\AndroidManifest.xml
 JarDirectories=
 JarDependencies=
 NativeLibDirectories=
@@ -31,13 +31,13 @@ PreBuildCommand=
 AdditionalOptions=
 
 JavaSources:
-C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\src\fi\umbrellademo\Umbrella_Demo.java
-C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\src\fi\umbrellademo\UmbrellaDemoLib.java
-C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\src\fi\umbrellademo\UmbrellaDemoView.java
+C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\src\fi\umbrellademo\Umbrella_Demo.java
+C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\src\fi\umbrellademo\UmbrellaDemoLib.java
+C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\src\fi\umbrellademo\UmbrellaDemoView.java
 
 AndroidBuildSources:
-C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\AndroidManifest.xml
-C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Umbrella_Demo\res\values\strings.xml
+C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\AndroidManifest.xml
+C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Umbrella_Demo\res\values\strings.xml
 
 Sources:
-C:\Users\nikokin\Documents\VisualStudio2013\Android\Umbrella_Demo\Umbrella_Demo\Tegra-Android\Debug\libUmbrella_Demo.so
+C:\Users\nikokin\Documents\GitHub\Umbrella_Demo\Tegra-Android\Debug\libUmbrella_Demo.so
